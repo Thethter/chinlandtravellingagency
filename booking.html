@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chinland Travelling Agency</title>
+		<link href="logo.png" rel="icon" type="image/png" sizes="32x32" />
+		<link href="fontawesomepro/css/all.min.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Anton', sans-serif;
+}
+.nav1{
+ 	width: 100%;
+ 	height: 90px;
+ 	position: sticky;
+ 	top: 0;
+ 	display: flex;
+ 	background-color: white;
+}
+.nav1 .logo{
+	margin: 0 auto;
+}
+.nav1 .logo span{
+	margin-right: 300px;
+	color:#689368;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 45px;
+	font-weight: bolder;
+}
+.nav1 .logo span::first-letter{
+	font-size: 70px;
+}
+.nav1 ul{
+	list-style: none;
+	margin: auto;
+}
+.nav1 ul li{
+	margin-top: 0;
+	width: 130px;
+	text-align: center;
+	float: left;
+	line-height: 4;
+	font-size: 20px;
+}
+.nav1 ul li a{
+	text-decoration: none;
+	color:  #48817A;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.nav1 ul li a:hover{
+	font-style: italic;
+	font-weight: bolder;
+	font-family: 'Josefin Sans', sans-serif;
+	border-bottom: 3px solid #B4D330;
+}
+.slider{
+	width: 100%;
+	height:300px;
+	background: url(tour.jpeg);
+}
+.greeting{
+	padding-top: 50px;
+	padding-left:800px;
+	width: 500px;
+	height: 80px;
+}
+.slider .greeting h3{
+	font-family: inherit;
+	color: #48817A;
+	font-size: 40px;
+}
+.slider .greeting p{
+	color: #48817A;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+.new{
+	width: 700px;
+	height: 50px;
+	margin-top: 200px;
+	margin-left: 50px;
+	float: left;
+}
+.new h2{
+	display: inline;
+	color: #48817A;
+}
+.new b{
+	padding-left: 20px;
+	color: #316e42;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 45px;
+	font-weight: bolder;
+}
+.container{
+	clear: both;
+	width: 100%;
+}
+.container .tour{
+	float: left;
+	width: 400px;
+	height: 470px;
+	margin: 50px 10px 20px 35px;
+	border: 1px solid  #48817A;
+	box-shadow: -10px -10px 3px gray;
+	/*background-color: #48817A;*/
+	border-radius: 40px;
+	color:  #48817A;
+}
+.container .tour h3,.container .tour p{
+	padding:5px 0  0 40px;
+}
+.container .tour button{
+	width: 100px;
+	line-height: 3;
+	border: 1px solid #48817A;;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	margin:20px 150px 20px 40px;
+	transition: all 2s;
+}
+.container .tour button:hover{
+	width: 120px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 7px 7px 3px  #48817A;
+}
+.container .tour button a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #48817A;
+}
+.container .tour address{
+	display: inline;
+	font-size: 20px;
+}
+.container .tour i{
+	margin: 8px 5px 20px 40px;
+}
+.tour span{
+	margin-right: 15px;	
+}
+.logo span{
+	margin-top: 0;
+	color: #316e42;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.footer{
+	clear: both;
+	display: flex;
+	width: 1300px;
+	padding: 20px;
+	height: 350px;
+}
+.footer p{
+	text-align: justify;
+}
+.footer{
+	clear: both;
+	display: flex;
+	width: 1300px;
+	padding: 20px;
+	height: 350px;
+	/*background:   #9BC1EE;*/
+}
+.footer p{
+	text-align: justify;
+}
+.copyright{
+	width:1340px;
+	line-height: 3;
+	background:   #9BC1EE;
+	color:#264C41;
+	padding-top: 20px;
+}
+.copyright i{
+	font-size: 30px;
+	/*padding: 3px;*/
+	color: #264C41;
+	transform: all 1s;
+}
+.copyright i:hover{
+	transform: translateY(25px);
+}
+</style>
+
+	<body>
+		<nav class="nav1">
+		<div class="logo" style="width:800px;height: 80px;display: flex;"><img src="logo.png" width="80px" height="80px" style="border-radius: 50%;margin-left: 50px;" /><span style="margin-top: 0;">Chinland travelling agency</span></div>
+		<ul>
+			<li><a href="travel.html">HOME</a></li>
+			<li><a href="booking.html">TOUR</a></li>
+			<li><a href="places.html">BOOKINGS</a></li>
+			<li><a href="rate.html">RATE US</a></li>
+		</ul>
+	</nav>
+
+	<div class="slider">
+		<div class="greeting">
+		<h3>Tour Lists</h3>
+		<p>Home/Tour Lists</p>
+	</div>
+
+	<div class="new">
+		<p>Choose your</p>
+		<h2>Perfect holidays in MYANMAR with </h2><b>Chinland travelling agency</b></div>
+
+	<div class="container">
+		<div class="tour"><img src="tour1.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Mount Popa</h3><p>Old Volcano in Myanmar</p><button><a href="places.html">Book Now</a></button><address>$1000</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Mandalay Division</span></div>
+
+		<div class="tour"><img src="tour2.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Mount Zwekapin</h3><p>Mount around the water</p><button><a href="places.html">Book Now</a></button><address>$1500</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Kayin State</span></div>
+
+		<div class="tour"><img src="tour3.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Mandalay Moat</h3><p>Mandalay</p><button><a href="places.html">Book Now</a></button><address>$1200</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Mandalay Region</span></div>
+
+		<div class="tour"><img src="tour4.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Pintaya Cave</h3><p>One of the cave in Shan State</p><button><a href="places.html">Book Now</a></button><address>$1000</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Shan State</span></div>
+
+		<div class="tour"><img src="tour5.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Mount. Kakaborazi</h3><p>Highest mountain in Myanmar</p><button><a href="places.html">Book Now</a></button><address>$1000</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Kachin State</span></div>
+
+		<div class="tour"><img src="tour6.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Shwe Inlay Pagoada</h3><p>Pagoda</p><button><a href="places.html">Book Now</a></button><address>$1000</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Shan State</span></div>
+
+		<div class="tour"><img src="tour7.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>ThanBhoteday Pagoda</h3><p>Pagoda in Mongywa</p><button><a href="places.html">Book Now</a></button><address>$800</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Mandalay Region</span></div>
+
+		<div class="tour"><img src="tour8.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Yote Sone Kyaung</h3><p>Thibaw King's Palace in Salay</p><button><a href="places.html">Book Now</a></button><address>$400</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Magway Region</span></div>
+
+		<div class="tour"><img src="tour9.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Kyat Cave</h3><p>One of the caves in Kayah</p><button><a href="places.html">Book Now</a></button><address>$1200</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Kayah State</span></div>
+
+		<div class="tour"><img src="tour10.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Hih per Waterfall</h3><p>One of the beautiful waterfalls in Shan</p><button><a href="places.html">Book Now</a></button><address>$1500</address><br/><i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Shan State</span></div>
+
+		<div class="tour"><img src="tour11.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Deedote Waterfall</h3><p>Waterfall in Mandalay</p><button><a href="places.html">Book Now</a></button><address>$960</address><br/>
+			<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Mandalay</span></div>
+
+		<div class="tour"><img src="chin1.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Rih Lake</h3><p>Beautiful lake in Chin State</p><button><a href="places.html">Book Now</a></button><address>$700</address><br/>
+		<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Chin State</span></div>
+	
+		<div class="tour"><img src="bagan1.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>DamanYan Kyi Pagoda</h3><p>Pagoda in Bagan</p><button><a href="places.html">Book Now</a></button><address>$700</address><br/>
+		<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Mandalay Region</span></div>
+
+		<div class="tour"><img src="inlay.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Inlay Lake</h3><p>Beautiful lake in Shan State</p><button><a href="places.html">Book Now</a></button><address>$700</address><br/>
+		<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Shan State</span></div>
+
+		<div class="tour"><img src="mon.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>KyikeHtiiYoe Pagoda</h3><p>Pagoda in KyikeHto</p><button><a href="places.html">Book Now</a></button><address>$1000</address><br/>
+		<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Mon State</span></div>
+
+		<div class="tour"><img src="maungmakan1.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Maungmakan Beach</h3><p>Beach in Yakhine State</p><button><a href="places.html">Book Now</a></button><address>$1000</address><br/>
+		<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Yakhine State</span></div>
+
+		<div class="tour"><img src="shan1.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Kalaw View Point in Kalaw</h3><p>Beautiful lake in Chin State</p><button><a href="places.html">Book Now</a></button><address>$700</address><br/>
+		<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Shan State</span></div>
+
+		<div class="tour"><img src="yangon.jpeg" width="400px" height="250px"  style="border-radius:30px 30px 0 0" /><h3>Shwedagon Pagoda</h3><p>Pagoda in Yangon,the capital of Myanmar</p><button><a href="places.html">Book Now</a></button><address>$700</address><br/>
+		<i class="fal fa-clock" style="font-size:18px;"></i><span>days</span><i class="fal fa-user" style="font-size:18px;"></i><span>18+</span><i class="fas fa-map-marker-alt" style="font-size:18px;"></i><span>Yangon Region</span></div>
+	</div>
+
+	<center><div class="logo" style="width:500px;height: 150px;display: flex;"><img src="logo.png" width="100px" height="100px" style="border-radius: 50%;" /><span style="padding-top: 25px;">Chinland travelling agency</span></div>
+
+
+	<div class="footer">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15472190.168630585!2d87.63726424187435!3d18.78075720276777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305652a7714e2907%3A0xba7b0ee41c622b11!2sMyanmar%20(Burma)!5e0!3m2!1sen!2smm!4v1632641615773!5m2!1sen!2smm" width="300" height="300" style="border:0;margin: 20px;" allowfullscreen="" loading="lazy"></iframe>
+			<img src="myanmarflag.gif" width="500px" height="300px" style="margin:20px" />
+			<p style="margin:20px">Myanmar (formerly Burma) is a Southeast Asian nation of more than 100 ethnic groups, bordering India, Bangladesh, China, Laos and Thailand. Yangon (formerly Rangoon), the country's largest city, is home to bustling markets, numerous parks and lakes, and the towering, gilded Shwedagon Pagoda, which contains Buddhist religions and dates to the 6th century.</p>
+		</div>
+
+
+		<div class="copyright">
+			<a href="https://www.facebook.com"><i class="fab fa-facebook" style="font-size:40px"></i></a>
+			<a href="https://www.messenger.com"><i class="fab fa-facebook-messenger" style="font-size:40px"></i></a>
+			<a href="https://www.telegram.com"><i class="fab fa-telegram" style="font-size:40px"></i></a>
+			<a href="https://www.pinterest.com"><i class="fab fa-pinterest" style="font-size:40px"></i></a>
+
+
+			<center><small style="font-size: 18px;">copyright <i class="fas fa-copyright" style="font-size: 18px;"></i>2021 Chinland Travelling Agency By Thin Htet Kyaw.All right reserved.</small></center></div>
+
+	
+</body>
+</html>

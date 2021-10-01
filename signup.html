@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Travelling Login Form</title>
+		<link href="logo.png" rel="icon" sizes="32x32" type="image/png" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link href="fontawesomepro/css/all.min.css/" rel="stylesheet" type="text/css" />
+	</head>
+	 	<style type="text/css">
+	 		@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+	 		@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Anton', sans-serif;
+}
+.header{
+	background: url("header.jpeg");
+	width: 100%;
+	height: 115px;
+	color: ghostwhite;
+	/*background-color: #c8e0dds;*/
+	position: sticky;
+	top: 0;
+}
+.header h1{
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 40px;
+	/*text-shadow: 3px 3px 3px teal;*/
+}
+.header p{
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.slider{
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background: url(img1.jpeg);
+	animation: slide 15s infinite;
+	position: relative;
+}
+@keyframes slide{
+	25%{
+		background: url(img1.jpeg);
+	}
+	50%{
+		background: url(img2.jpeg);
+	}
+	75%{
+		background: url(img3.jpeg);
+	}
+	100%{
+		background: url(img4.jpeg);
+	}
+}
+.slider .form{
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	left: 850px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+*{
+	box-sizing: border-box;
+}
+.form{
+			/*top&bottom left&right*/
+ 	padding: 20px 20px;
+ 	background-color: rgba(0, 0, 0, 0.2);
+
+}
+.form p{
+	margin: 10px 0 10px 0;
+}
+.form .form-group{
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+}
+.form-group label{
+	display: block;
+	margin-bottom: 5px;
+}
+.form-group .form-control{
+	font-family: inherit;
+	width: 100%;
+	padding: 10px;
+	/*font-family: 'Anton', sans-serif;*/
+}
+.form-group .form-control:focus{
+	/*outline: 0;*/
+	outline-color: darkred;
+}
+.form-group .form-control::placeholder{
+	color: rgba(0, 0, 0, 0.7);
+}
+.form .btn{
+	/*font-family: 'Anton', sans-serif;*/
+	font-family: inherit;
+	letter-spacing: 1px;
+	width: 100%;
+	background-color: #48817A;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+.form .btn:active{
+	transform: scale(0.98);
+}
+.new{
+	width: 700px;
+	height: 50px;
+	margin: 30px;
+}
+.new h2{
+	display: inline;
+}
+.new b{
+	padding-left: 20px;
+	color:  #316e42;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 40px;
+	font-weight: bolder;
+}
+.photo{
+	width: 1300px;
+	margin: 20px;
+	font-weight: bold;
+}
+.photo .border{
+	width: 430px;
+	height: 430px;
+	padding: 20px;
+	float: left;
+}
+.photo .border .kachin{
+	width: 300px;
+	height: 300px;
+	background: url(kachin.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.photo .border .kayah{
+	width: 400px;
+	height: 350px;
+	background: url(kayah1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+
+}
+.photo .border .kayin{
+	width: 400px;
+	height: 350px;
+	background: url(kayin1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .chin{
+	width: 400px;
+	height: 330px;
+	background: url(chin1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .mon{
+	width: 400px;
+	height: 330px;
+	background: url(mon1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .bagan{
+	width: 300px;
+	height: 300px;
+	background: url(bagan1.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.photo .border .mandalay{
+	width: 300px;
+	height: 300px;
+	background: url(mandalay.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.photo .border .yangon{
+	width: 400px;
+	height: 330px;
+	background: url(yangon.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .ngwesaung{
+	width: 400px;
+	height: 330px;
+	background: url(ngwesaung.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .mg{
+	width: 400px;
+	height: 330px;
+	background: url(maungmakan1.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.photo .border .rakhine{
+	width: 400px;
+	height: 300px;
+	background: url(rakhine.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .shan{
+	width: 400px;
+	height: 330px;
+	background: url(shan2.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+span{
+	margin-top: 0;
+	color: #316e42;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.footer{
+	clear: both;
+	display: flex;
+	width: 100%;
+	padding: 20px;
+	height: 350px;
+	/*background:   #9BC1EE;*/
+}
+.footer p{
+	text-align: justify;
+}
+.copyright{
+	width: 100%;
+	line-height: 3;
+	background: url(header.jpeg);
+	color: ghostwhite;
+}
+	 	</style>
+
+	<body>
+		<div class="header">
+			<h1>Welcome to Chinland travelling agency</h1>
+			<p>Travel around Myanmar with Chinland travelling agency</p>
+		</div>
+		
+		<div class="slider" >
+			<div class="form">
+				<p>If you already had your online account in Chinland Travelling agency,please sign in Below.</p>
+			<form action="" method="" enctype="multipart/form-data">
+			<div class="form-group">
+			<label for="email">Email<i class="fas fa-user-lock" style="color:black;font-size:18px;padding-left: 5px;"></i></label>
+			<input type="email" name="email" id="email" class="form-control" placeholder="Enter email" autocomplete="off" />
+			</div>
+
+			<div class="form-group">
+			<label for="username">Username<i class="fas fa-user-lock" style="color:black;font-size:18px;padding-left: 5px;"></i></label>
+			<input type="text" name="username" id="username" class="form-control" placeholder="Enter username" autocomplete="off" />
+			</div>
+
+			<div class="form-group">
+			<label for="password">Password<i class="fas fa-lock" style="color:black;font-size:18px;padding-left: 5px;"></i></label>
+			<input type="password" name="password" id="password" class="form-control" placeholder="Enter password" autocomplete="off" />
+			</div>
+
+			<div class="form-group">
+			<label for="cfpassword">Confirm Password<i class="fas fa-lock" style="color:black;font-size:18px;padding-left: 5px;"></i></label>
+			<input type="password" name="cfpassword" id="cfpassword" class="form-control" placeholder="Confirm password" autocomplete="off" />
+			</div>
+
+			<button type="submit" name="submit" id="submit" class="btn"><a href="travel.html" style="text-decoration: none;color:black;font-family: inherit;">Register</a></button>
+
+			</form>
+			</div>
+		</div>
+
+		<div class="new">
+		<p>Choose your</p>
+		<h2>Perfect holidays with in MYANMAR</h2><b>Chinland travelling agency</b></div>
+		<div class="photo">
+		<div class="border"><p class="kachin">Kachin</p></div>
+		<div class="border"><p class="kayah">Kayah </p></div>
+		<div class="border"><p class="kayin">Kayin </p></div><br/>
+		<div class="border"><p class="chin">Chin </p></div>
+		<div class="border"><p class="mon">Mon </p></div>
+		<div class="border"><p class="bagan">Bagan</p></div><br/>
+		<div class="border"><p class="mandalay">Mandalay</p></div>
+		<div class="border"><p class="yangon">Yangon</p></div>
+		<div class="border"><p class="ngwesaung">Ngwesaung</p></div><br/>
+		<div class="border"><p class="mg">Maungmakan</p></div>
+		<div class="border"><p class="rakhine">Rakhine</p></div>
+		<div class="border"><p class="shan">Shan</p></div>
+		</div>
+
+		<center><div class="logo" style="width:500px;height: 150px;display: flex;"><img src="logo.png" width="100px" height="100px" style="border-radius: 50%;" /><span style="padding-top: 25px;">Chinland travelling agency</span></div>
+
+		<div class="footer">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15472190.168630585!2d87.63726424187435!3d18.78075720276777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x305652a7714e2907%3A0xba7b0ee41c622b11!2sMyanmar%20(Burma)!5e0!3m2!1sen!2smm!4v1632641615773!5m2!1sen!2smm" width="400" height="300" style="border:0;margin: 20px;" allowfullscreen="" loading="lazy"></iframe>
+			<img src="myanmarflag.gif" width="500px" height="300px" style="margin:20px" />
+			<p style="margin:20px">Myanmar (formerly Burma) is a Southeast Asian nation of more than 100 ethnic groups, bordering India, Bangladesh, China, Laos and Thailand. Yangon (formerly Rangoon), the country's largest city, is home to bustling markets, numerous parks and lakes, and the towering, gilded Shwedagon Pagoda, which contains Buddhist religions and dates to the 6th century</p>
+		</div>
+
+		<div class="copyright"><center><small style="font-size: 18px;">copyright <i class="fas fa-copyright" style="font-size: 18px;"></i>2021 Chinland Travelling Agency By Thin Htet Kyaw.All right reserved.</small></center></div>
+	</body>
+</html>

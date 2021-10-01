@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Anton', sans-serif;
+}
+.nav1{
+ 	width: 100%;
+ 	height: 90px;
+ 	position: sticky;
+ 	background-color: #fff;
+	top: 0;
+	display: flex;
+	/*background-color: white;*/
+}
+.nav1 .logo{
+	margin: 0 auto;
+}
+.nav1 .logo span{
+	margin-right: 300px;
+	color:#689368;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 45px;
+	font-weight: bolder;
+}
+.nav1 .logo span::first-letter{
+	font-size: 70px;
+}
+.nav1 ul{
+	list-style: none;
+	margin: auto;
+}
+.nav1 ul li{
+	margin-top: 0;
+	width: 130px;
+	text-align: center;
+	float: left;
+	line-height: 4;
+	font-size: 20px;
+}
+.nav1 ul li a{
+	text-decoration: none;
+	color:  #48817A;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.nav1 ul li a:hover{
+	font-style: italic;
+	font-weight: bolder;
+	font-family: 'Josefin Sans', sans-serif;
+	border-bottom: 3px solid #B4D330;
+}
+.slider{
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background: url(img1.jpeg);
+	animation: slide 15s infinite;
+	position: relative;
+}
+@keyframes slide{
+	25%{
+		background: url(img1.jpeg);
+	}
+	50%{
+		background: url(img2.jpeg);
+	}
+	75%{
+		background: url(img3.jpeg);
+	}
+	100%{
+		background: url(img4.jpeg);
+	}
+}
+.greeting{
+	position: absolute;
+	top: 150px;
+	left:755px;
+	width: 500px;
+	height: 80px;
+}
+.slider .greeting h1{
+	font-family: inherit;
+	color: #48817A;
+	font-size: 45px;
+}
+.slider .greeting p{
+	color: #48817A;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+}
+.slider .greeting button{
+	margin-top: 30px;
+	width: 160px;
+	border-radius: 10px;
+	background-color:whitesmoke ;
+	box-shadow: 7px 7px 0 #48817A;
+	border: none;
+	transition: all 2s;
+}
+.slider .greeting button a{
+	line-height: 2.5;
+	text-decoration: none;
+	color: #48817A;
+	font-size: 20px;
+}
+.slider .greeting button:hover{
+	width: 180px;
+	height: 50px;
+	box-shadow: none;
+}
+.new{
+	width: 700px;
+	height: 50px;
+	margin: 50px;
+	clear: both;
+}
+.new h2{
+	display: inline;
+	color: #48817A;
+}
+.new b{
+	padding-left: 20px;
+	color: #316e42;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 45px;
+	font-weight: bolder;
+}
+.photo{
+	width: 1300px;
+	margin: 20px;
+	font-weight: bold;
+}
+.photo .border{
+	width: 380px;
+	height: 380px;
+	padding: 25px;
+	float: left;
+}
+.photo .border .kachin{
+	width: 250px;
+	height: 250px;
+	background: url(kachin.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.photo .border .kayah{
+	width: 300px;
+	height: 300px;
+	background: url(kayah1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+
+}
+.photo .border .kayin{
+	width: 300px;
+	height: 300px;
+	background: url(kayin1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .chin{
+	width: 300px;
+	height: 250px;
+	background: url(chin1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .mon{
+	width: 300px;
+	height: 250px;
+	background: url(mon1.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .bagan{
+	width: 250px;
+	height: 250px;
+	background: url(bagan1.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.photo .border .mandalay{
+	width: 250px;
+	height: 250px;
+	background: url(mandalay.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 50%;
+}
+.photo .border .yangon{
+	width: 300px;
+	height: 300px;
+	background: url(yangon.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .ngwesaung{
+	width: 300px;
+	height: 300px;
+	background: url(ngwesaung.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .mg{
+	width: 300px;
+	height: 300px;
+	background: url(maungmakan1.jpeg);
+	text-align: center;
+	padding: 40px;
+	font-size: 20px;
+	border-radius: 20px;
+}
+.photo .border .rakhine{
+	width: 300px;
+	height: 220px;
+	background: url(rakhine.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.photo .border .shan{
+	width: 300px;
+	height: 300px;
+	background: url(shan2.jpeg);
+	border-radius: 20px;
+	padding: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+span{
+	margin-top: 0;
+	color: #316e42;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 50px;
+	font-weight: bolder;
+}
+.inlay{
+	width: 100%;
+	height:800px ;
+	color:#fff ;
+	margin: auto;
+	background: url(header.jpeg);
+}
+.inlay h1{
+	font-size: 40px;
+	padding-top: 30px;
+}
+.inlay p{
+	padding-top: 30px;
+	font-size: 20px;
+}
+.container{
+	margin: 50px 0 50px 0;
+	width: 100%;
+	height: 200px;
+}
+.container .icon{
+	width: 200px;
+	line-height:4;
+	padding: 20px;
+	margin-right: 50px;
+	display: inline-block;
+	background-color: #50AAB3 ;
+	transition:all 3s;
+}
+.icon:hover{
+	color: black;
+	width: 300px;
+	line-height: 3;
+	color: black;
+	border-radius: 30px;
+	background: teal;
+}
+.footer{
+	clear: both;
+	margin-top: 50px;
+	display: flex;
+	width: 1300px;
+	padding: 20px;
+	height: 350px;
+	/*background:#9BC1EE;*/
+}
+.footer p{
+	text-align: justify;
+}
+.copyright{
+	width: 1300px;
+	line-height: 3;
+	background:   #9BC1EE;
+	color:#264C41;
+	padding: 20px;
+}
+.copyright i{
+	padding: 3px;
+	transform: all 2s;
+	color:#264C41;
+}
+.copyright i:hover{
+	transform: translateY(25px);
+}
